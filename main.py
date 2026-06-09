@@ -1,5 +1,6 @@
 from dotenv import load_dotenv
 from agents.research_agent import research_agent
+from agents.analysis_agent import analysis_agent
 
 load_dotenv()
 
@@ -14,3 +15,9 @@ for index,result in enumerate(results["results"],start=1) :
     print(f"{index}. {result['title']}")
     print(result['url'])
     print()
+
+analysis=analysis_agent(results)
+
+print("\nANALYSIS REPORT\n")
+
+print(analysis)
