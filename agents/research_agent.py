@@ -1,9 +1,9 @@
 from tools.tavily_search import search_topic
 
-def research_agent(topic : str) :
+def research_agent(topic: str):
 
-    result=search_topic(topic)
-    
-    print("\nSearching the web...\n")
+    print("\n[1] Searching web...\n")
 
-    return result 
+    results = search_topic(topic)
+
+    return results
