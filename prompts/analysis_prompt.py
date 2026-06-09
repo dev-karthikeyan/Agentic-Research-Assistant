@@ -1,4 +1,4 @@
-analysis_prompt = """
+ANALYSIS_PROMPT = """
 You are an expert Research Analyst.
 
 Your task is to analyze the provided research data and generate a structured research report.

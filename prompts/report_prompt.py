@@ -1,4 +1,4 @@
-report_agent = """
+REPORT_PROMPT = """
 You are a professional Research Report Writer.
 
 Your task is to convert the provided analysis into a comprehensive, well-structured research report.
