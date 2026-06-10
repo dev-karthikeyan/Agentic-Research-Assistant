@@ -4,6 +4,7 @@ from agents.analysis_agent import analysis_agent
 from agents.report_agent import report_agent
 from agents.presentation_agent import presentation_agent
 from agents.pdf_export_agent import pdf_export_agent
+from agents.ppt_export_agent import ppt_export_agent
 
 load_dotenv()
 
@@ -37,3 +38,8 @@ pdf_file = pdf_export_agent(report)
 
 print("\n[5] PDF GENERATED\n")
 print(f"Saved as: {pdf_file}")
+
+ppt_file = ppt_export_agent(presentation)
+
+print("\n[5] PPT GENERATED\n")
+print(f"Saved as: {ppt_file}")
