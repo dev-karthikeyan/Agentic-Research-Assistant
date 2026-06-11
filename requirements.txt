@@ -3,3 +3,4 @@ langchain-core
 langchain-mistralai
 tavily-python
 python-dotenv
+streamlit
